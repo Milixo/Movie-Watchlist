@@ -1,0 +1,113 @@
+/* Globalne Stilove */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Kontejner za Sadržaj */
+.container {
+    max-width: 900px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Stilovi za Naslov */
+h1 {
+    text-align: center;
+    color: #333;
+    margin: 0 0 20px 0;
+}
+
+/* Stilovi za Listu Filmova */
+#filmList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+
+/* Stilovi za Svaki Film */
+.film {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Stilovi za Sliku */
+.film img {
+    border-radius: 4px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Stilovi za Naslov Filma */
+.film h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+
+/* Stilovi za Opis Filma */
+.film p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Stilovi za Cenu Filma */
+.film .price {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Stilovi za Dugme */
+.film button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    text-align: center;
+    display: inline-block; /* Inline-block omogućava centriranje */
+}
+
+/* Stilovi za Dugme kada je označeno kao pogledano */
+button.watched {
+    background-color: #28a745;
+}
+
+/* Stilovi za Summary */
+.summary {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+}
